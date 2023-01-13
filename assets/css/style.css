@@ -58,8 +58,8 @@ body {
 }
 
 @media (max-width: 800px) {
-  body {
-    font-size: 0.9rem;
+  .container h1 {
+    font-size: 0.85rem;
   }
 
   .container {
