@@ -29,7 +29,7 @@
       } else if(differenceQuota < 0){
           $result.innerHTML = 'O valor da <b>cota  maior</b> não pode ser inferior ao da <b>cota menor.</b>';
       } else if(differenceBetweenDistance < 0){
-          $result.innerHTML = 'A <b>distancia entre cotas</b> não pode ser inferiror a <b>distancia da cota até o ponto</b> a ser interpolado.';
+          $result.innerHTML = 'A <b>distância entre cotas</b> não pode ser inferior à <b>distância da cota até o ponto</b> a ser interpolado.';
       } else{
           $result.innerHTML = `<b>A cota do ponto é: </b>${result}`
       };
